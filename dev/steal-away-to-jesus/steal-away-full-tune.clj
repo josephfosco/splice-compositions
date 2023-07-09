@@ -315,15 +315,8 @@
               :level 0.7}
      }
 
-    ;; ------------ mm 12 ------------
+    ;; ------------ mm 13 ------------
 
-    {:pitch {:type :fixed
-             :pitch-midi-note 65}
-     :dur {:type :fixed
-           :dur-millis 1000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
