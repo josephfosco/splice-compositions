@@ -441,7 +441,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 10687.5}
+           :dur-millis 22687.5}
      }
     ]}
 
@@ -463,7 +463,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 10500}
+           :dur-millis 22500}
      }
     ]}
 
@@ -485,7 +485,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 9000}
+           :dur-millis 21000}
      }
     ]}
 
@@ -507,7 +507,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 7687.5}
+           :dur-millis 19687.5}
      }
     ]}
 
@@ -529,7 +529,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 7500}
+           :dur-millis 19500}
      }
     ]}
 
@@ -551,7 +551,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 6000}
+           :dur-millis 18000}
      }
     ]}
 
@@ -574,7 +574,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 4687.5}
+           :dur-millis 16687.5}
      }
     ]}
 
@@ -596,7 +596,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 4500}
+           :dur-millis 16500}
      }
     ]}
 
@@ -618,7 +618,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 3187.5}
+           :dur-millis 15187.5}
      }
     ]}
 
@@ -640,7 +640,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 3000}
+           :dur-millis 15000}
      }
     ]}
 
@@ -663,7 +663,7 @@
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 2250}
+           :dur-millis 14250}
      }
     ]}
 
@@ -754,8 +754,6 @@
     {:pitch {:type :rest} :dur {:type :fixed :dur-millis 7875}}
     ]}
 
-----
-
   {:name "note-6-2"
    :loop-type :loop
    :instrument-name :wurlitzer-piano
@@ -769,7 +767,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 6562.5}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 7687.5}}
     ]}
 
   {:name "note-6-3"
@@ -785,7 +783,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 6375}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 7500}}
     ]}
 
   {:name "note-6-4"
@@ -801,7 +799,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 6000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 6375}}
     ]}
 
   {:name "note-6-5"
@@ -817,8 +815,9 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 4875}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 6000}}
     ]}
+
 
   {:name "note-7-1"
    :loop-type :loop
@@ -833,7 +832,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 4125}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 5250}}
     ]}
 
   {:name "note-7-2"
@@ -849,7 +848,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 3375}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 4500}}
     ]}
 
   {:name "note-7-3"
@@ -865,7 +864,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 3000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 3375}}
     ]}
 
   {:name "note-7-4"
@@ -881,7 +880,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 1875}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 3000}}
     ]}
 
   {:name "note-8-1"
@@ -897,7 +896,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 1125}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 2250}}
     ]}
 
   {:name "note-8-2"
