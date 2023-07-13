@@ -19,6 +19,412 @@
  ;; :main-bus-effects
  ;; {"reverb-2ch" ("vol" 0.8 "mix" 1.0 "room" 0.95)}
 
+ ;; :loops
+ ;; [
+ ;;  {:name "tune-loop"
+ ;;   :loop-type :loop
+ ;;   :instrument-name :wurlitzer-piano
+ ;;   :melody-info
+ ;;   [
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 65}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 1312.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 65}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 187.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 65}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 1500}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 69}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 1312.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 69}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 187.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 69}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 1500}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 72}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 1312.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 72}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 187.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 72}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 1312.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 74}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 187.5}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 67}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 750}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+ ;;    {:pitch {:type :fixed
+ ;;             :pitch-midi-note 69}
+ ;;     :dur {:type :fixed
+ ;;           :dur-millis 2250}
+ ;;     :volume {:type :fixed
+ ;;              :level 0.7}
+ ;;     }
+
+    ;; ------------ mm 5 ------------
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1750}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 250}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 2000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 74}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 250}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 250}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 67}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 3000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; ;; ------------ mm 9 ------------
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 74}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 2000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 74}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 250}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 74}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 2000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 2000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+
+    ;; ;; ------------ mm 13 ------------
+
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 74}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 72}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 69}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 500}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 67}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 1000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+    ;; {:pitch {:type :fixed
+    ;;          :pitch-midi-note 65}
+    ;;  :dur {:type :fixed
+    ;;        :dur-millis 3000}
+    ;;  :volume {:type :fixed
+    ;;           :level 0.7}
+    ;;  }
+   ;;  ]
+   ;; }
+
  :loops
  [
   {:name "note-1-1"
@@ -34,10 +440,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 46687.5
-           :dec-millis 5000
-           :inc-millis 5000}
+     :dur {:type :fixed
+           :dur-millis 46687.5}
      }
     ]}
 
@@ -58,10 +462,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 46500
-           :dec-millis 5000
-           :inc-millis 5000}
+     :dur {:type :fixed
+           :dur-millis 46500}
      }
     ]}
 
@@ -82,11 +484,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 45000
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 45000}
      }
     ]}
 
@@ -107,11 +506,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 43687.5
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 43687.5}
      }
     ]}
 
@@ -132,11 +528,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 43500
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 43500}
      }
     ]}
 
@@ -157,11 +550,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 42000
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 42000}
      }
     ]}
 
@@ -183,11 +573,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 40687.5
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 40687.5}
      }
     ]}
 
@@ -208,11 +595,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 40500
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 40500}
      }
     ]}
 
@@ -233,11 +617,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 39187.5
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 39187.5}
      }
     ]}
 
@@ -258,11 +639,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 39000
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 39000}
      }
     ]}
 
@@ -284,11 +662,8 @@
               :level 0.7}
      }
     {:pitch {:type :rest}
-     :dur {:type :variable-inc-millis
-           :dur-millis 38250
-           :dec-millis 5000
-           :inc-millis 5000
-           }
+     :dur {:type :fixed
+           :dur-millis 38250}
      }
     ]}
 
@@ -309,7 +684,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 36000} :dec-millis 5000 :inc-millis 5000}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 36000}}
     ]}
 
   ;; ------------ mm 5 ------------
@@ -327,7 +702,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 34687.5 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 34687.5}}
     ]}
 
   {:name "note-5-2"
@@ -343,7 +718,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 34500 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 34500}}
     ]}
 
   {:name "note-5-3"
@@ -359,7 +734,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 33000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 33000}}
     ]}
 
 
@@ -376,7 +751,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 31875 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 31875}}
     ]}
 
   {:name "note-6-2"
@@ -392,7 +767,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 31687.5 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 31687.5}}
     ]}
 
   {:name "note-6-3"
@@ -408,7 +783,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 31500 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 31500}}
     ]}
 
   {:name "note-6-4"
@@ -424,7 +799,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 30375 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 30375}}
     ]}
 
   {:name "note-6-5"
@@ -440,7 +815,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 30000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 30000}}
     ]}
 
 
@@ -457,7 +832,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 29250 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 29250}}
     ]}
 
   {:name "note-7-2"
@@ -473,7 +848,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 28500 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 28500}}
     ]}
 
   {:name "note-7-3"
@@ -489,7 +864,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 27375 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 27375}}
     ]}
 
   {:name "note-7-4"
@@ -505,7 +880,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 27000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 27000}}
     ]}
 
   {:name "note-8-1"
@@ -521,7 +896,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 26250 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 26250}}
     ]}
 
   {:name "note-8-2"
@@ -537,7 +912,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 24000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 24000}}
     ]}
 
   ;; ------------ mm 9 ------------
@@ -555,7 +930,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 22500 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 22500}}
     ]}
 
   {:name "note-9-2"
@@ -571,7 +946,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 21375 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 21375}}
     ]}
 
   {:name "note-9-3"
@@ -587,7 +962,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 21000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 21000}}
     ]}
 
 
@@ -605,7 +980,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 20250 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 20250}}
     ]}
 
   {:name "note-10-2"
@@ -621,7 +996,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 18750 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 18750}}
     ]}
 
   {:name "note-10-3"
@@ -637,7 +1012,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 18000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 18000}}
     ]}
 
 
@@ -655,7 +1030,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 16875 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 16875}}
     ]}
 
   {:name "note-11-2"
@@ -671,7 +1046,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 16500 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 16500}}
     ]}
 
   {:name "note-11-3"
@@ -687,7 +1062,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 15375 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 15375}}
     ]}
 
   {:name "note-11-4"
@@ -703,7 +1078,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 15000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 15000}}
     ]}
 
 
@@ -721,7 +1096,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 14250 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 14250}}
     ]}
 
   {:name "note-12-2"
@@ -737,7 +1112,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 12750 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 12750}}
     ]}
 
   {:name "note-12-3"
@@ -753,7 +1128,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 12000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 12000}}
     ]}
 
   ;; ------------ mm 13 ------------
@@ -771,7 +1146,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 11625 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 11625}}
     ]}
 
   {:name "note-13-2"
@@ -787,7 +1162,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 10500 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 10500}}
     ]}
 
   {:name "note-13-3"
@@ -803,7 +1178,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 9375 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 9375}}
     ]}
 
   {:name "note-13-4"
@@ -819,7 +1194,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 9000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 9000}}
     ]}
 
 
@@ -837,7 +1212,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 8625 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 8625}}
     ]}
 
   {:name "note-14-2"
@@ -853,7 +1228,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 8250 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 8250}}
     ]}
 
   {:name "note-14-3"
@@ -869,7 +1244,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 7500 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 7500}}
     ]}
 
   {:name "note-14-4"
@@ -885,7 +1260,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 6375 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 6375}}
     ]}
 
   {:name "note-14-5"
@@ -901,7 +1276,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 6000 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 6000}}
     ]}
 
 
@@ -919,7 +1294,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 5250 :dec-millis 5000 :inc-millis 5000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 5250}}
     ]}
 
   {:name "note-15-2"
@@ -935,7 +1310,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 4500 :dec-millis 1000 :inc-millis 1000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 4500}}
     ]}
 
   {:name "note-15-3"
@@ -951,7 +1326,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 3375 :dec-millis 1000 :inc-millis 1000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 3375}}
     ]}
 
   {:name "note-15-4"
@@ -967,7 +1342,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 3000 :dec-millis 1000 :inc-millis 1000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 3000}}
     ]}
 
 
@@ -985,7 +1360,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 2250 :dec-millis 1000 :inc-millis 1000}}
+    {:pitch {:type :rest} :dur {:type :fixed :dur-millis 2250}}
     ]}
 
   {:name "note-16-2"
@@ -1002,133 +1377,5 @@
               :level 0.7}
      }
     ]}
-
-
-
-  {:name "bass"
-   :loop-type :loop
-   :instrument-name :rhodes-piano
-   :melody-info
-   [
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 3000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 3000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 2812.500}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 46}
-     :dur {:type :fixed
-           :dur-millis 187.5}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 48}
-     :dur {:type :fixed
-           :dur-millis 750}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 2250}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-
-  ;; ------------ mm 5 ------------
-
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 3000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 46}
-     :dur {:type :fixed
-           :dur-millis 1125}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 375}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 1500}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-
-  ;; ------------ mm 7 ------------
-
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 1312.5}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 38}
-     :dur {:type :fixed
-           :dur-millis 187.5}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 36}
-     :dur {:type :fixed
-           :dur-millis 1500}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 36}
-     :dur {:type :fixed
-           :dur-millis 750}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 1250}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-
-  ;; ------------ mm 9 ------------
-
-    {:pitch {:type :rest}
-     :dur {:type :fixed
-           :dur-millis 24000}
-     }
-    ]}
-
 
   ]}
