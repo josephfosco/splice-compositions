@@ -1078,6 +1078,9 @@
      :volume {:type :fixed
               :level 0.7}
      }
+
+    ;; ------------ mm 6 ------------
+
     {:pitch {:type :fixed
              :pitch-midi-note 46}
      :dur {:type :fixed
@@ -1146,14 +1149,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 46}
      :dur {:type :fixed
-           :dur-millis 2625}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 375}
+           :dur-millis 3000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -1161,23 +1157,9 @@
     ;; ------------ mm 10 ------------
 
     {:pitch {:type :fixed
-             :pitch-midi-note 34}
+             :pitch-midi-note 38}
      :dur {:type :fixed
-           :dur-millis 750}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 36}
-     :dur {:type :fixed
-           :dur-millis 1500}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 41}
-     :dur {:type :fixed
-           :dur-millis 750}
+           :dur-millis 3000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -1185,7 +1167,7 @@
     ;; ------------ mm 11 ------------
 
     {:pitch {:type :fixed
-             :pitch-midi-note 41}
+             :pitch-midi-note 36}
      :dur {:type :fixed
            :dur-millis 3000}
      :volume {:type :fixed
@@ -1195,21 +1177,21 @@
     ;; ------------ mm 12 ------------
 
     {:pitch {:type :fixed
-             :pitch-midi-note 48}
+             :pitch-midi-note 36}
      :dur {:type :fixed
            :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
-             :pitch-midi-note 41}
+             :pitch-midi-note 38}
      :dur {:type :fixed
            :dur-millis 1500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
-             :pitch-midi-note 41}
+             :pitch-midi-note 38}
      :dur {:type :fixed
            :dur-millis 750}
      :volume {:type :fixed
@@ -1277,7 +1259,7 @@
     ;; ------------ mm 16 ------------
 
     {:pitch {:type :fixed
-             :pitch-midi-note 48}
+             :pitch-midi-note 36}
      :dur {:type :fixed
            :dur-millis 750}
      :volume {:type :fixed
