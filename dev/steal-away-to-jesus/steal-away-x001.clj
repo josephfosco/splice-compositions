@@ -309,7 +309,7 @@
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 36000} :dec-millis 5000 :inc-millis 5000}
+    {:pitch {:type :rest} :dur {:type :variable-inc-millis :dur-millis 36000 :dec-millis 5000 :inc-millis 5000}}
     ]}
 
   ;; ------------ mm 5 ------------
