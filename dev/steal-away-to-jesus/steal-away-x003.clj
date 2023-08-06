@@ -21,7 +21,7 @@
 
  :loops
  [
-  {:name "tune-loop"
+  {:name "note-1-1"
    :loop-type :loop
    :instrument-name :wurlitzer-piano
    :melody-info
@@ -29,215 +29,358 @@
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 1750}
+           :dur-millis 875}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 250}
+           :dur-millis 125}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
-     :dur {:type :fixed
-           :dur-millis 2000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-
-    {:pitch {:type :fixed
-             :pitch-midi-note 69}
-     :dur {:type :fixed
-           :dur-millis 1750}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 69}
-     :dur {:type :fixed
-           :dur-millis 250}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 69}
-     :dur {:type :fixed
-           :dur-millis 2000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-
-    {:pitch {:type :fixed
-             :pitch-midi-note 72}
-     :dur {:type :fixed
-           :dur-millis 1750}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 72}
-     :dur {:type :fixed
-           :dur-millis 250}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 72}
-     :dur {:type :fixed
-           :dur-millis 1750}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 74}
-     :dur {:type :fixed
-           :dur-millis 250}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-
-    {:pitch {:type :fixed
-             :pitch-midi-note 67}
      :dur {:type :fixed
            :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :fixed
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 30000
+           :dec-millis 750
+           :inc-millis 750}
+     }
+     ]}
+
+    ;; ------------ mm 2 ------------
+
+  {:name "note-2-1"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed}
+     }
+    {
+     :pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
-           :dur-millis 3000}
+           :dur-millis 875}
      :volume {:type :fixed
               :level 0.7}
      }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
+           :dur-millis 125}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
+           :dur-millis 1000}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 28000
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+    ;; ------------ mm 3 ------------
+
+  {:name "note-3-1"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 4000}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 72}
+     :dur {:type :fixed
+           :dur-millis 875}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 72}
+     :dur {:type :fixed
+           :dur-millis 125}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 72}
+     :dur {:type :fixed
+           :dur-millis 875}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 26125
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-3-4"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 5875}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 74}
+     :dur {:type :fixed
+           :dur-millis 125}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+
+    ;; ------------ mm 4 ------------
+
+    {:pitch {:type :fixed
+             :pitch-midi-note 67}
+     :dur {:type :fixed
+           :dur-millis 500}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
+           :dur-millis 1500}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 24000
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
 
     ;; ------------ mm 5 ------------
 
+  {:name "note-5-1"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 8000}
+     }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 1750}
+           :dur-millis 875}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 250}
+           :dur-millis 125}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
      }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 22000
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
 
+    ;; ------------ mm 6 ------------
+
+  {:name "note-6-1"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 10000}
+     }
     {:pitch {:type :fixed
              :pitch-midi-note 74}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 250}
+           :dur-millis 125}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
-           :dur-millis 250}
+           :dur-millis 125}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 20250
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-6-5"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 12250}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
 
+    ;; ------------ mm 7 ------------
+
     {:pitch {:type :fixed
              :pitch-midi-note 65}
-     :dur {:type :fixed
-           :dur-millis 1000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 65}
-     :dur {:type :fixed
-           :dur-millis 1000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 69}
-     :dur {:type :fixed
-           :dur-millis 1500}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 69}
      :dur {:type :fixed
            :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
+    {:pitch {:type :fixed
+             :pitch-midi-note 65}
+     :dur {:type :fixed
+           :dur-millis 500}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
+           :dur-millis 750}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 18250
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-7-4"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 14250}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
+           :dur-millis 250}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+
+    ;; ------------ mm 8 ------------
 
     {:pitch {:type :fixed
              :pitch-midi-note 67}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 3000}
+           :dur-millis 1500}
      :volume {:type :fixed
               :level 0.7}
      }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 16000
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
 
     ;; ------------ mm 9 ------------
 
+  {:name "note-9-1"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 16000}
+     }
     {:pitch {:type :fixed
              :pitch-midi-note 74}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 74}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -247,21 +390,38 @@
     {:pitch {:type :fixed
              :pitch-midi-note 74}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 12500
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-10-3"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 20500}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -271,50 +431,68 @@
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
+    ;; ------------ mm 12 ------------
 
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 8250
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-12-3"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 23500}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -324,34 +502,68 @@
     {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 6250
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-13-4"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 25750}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
+
+    ;; ------------ mm 14 ------------
+
     {:pitch {:type :fixed
              :pitch-midi-note 74}
      :dur {:type :fixed
+           :dur-millis 250}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 72}
+     :dur {:type :fixed
+           :dur-millis 250}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
            :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
@@ -359,24 +571,37 @@
     {:pitch {:type :fixed
              :pitch-midi-note 72}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 4250
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-14-5"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 27750}
      }
     {:pitch {:type :fixed
-             :pitch-midi-note 69}
+             :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
-    {:pitch {:type :fixed
-             :pitch-midi-note 72}
-     :dur {:type :fixed
-           :dur-millis 1500}
-     :volume {:type :fixed
-              :level 0.7}
-     }
+
+    ;; ------------ mm 15 ------------
+
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
@@ -387,47 +612,59 @@
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 1000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 65}
-     :dur {:type :fixed
-           :dur-millis 1000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 69}
-     :dur {:type :fixed
-           :dur-millis 1500}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 69}
-     :dur {:type :fixed
            :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
+           :dur-millis 750}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 250
+           :dec-millis 750
+           :inc-millis 750}
+     }
+    ]}
+
+  {:name "note-15-4"
+   :loop-type :loop
+   :instrument-name :wurlitzer-piano
+   :melody-info
+   [
+    {:pitch {:type :rest}
+     :dur {:type :fixed
+           :dur-millis 29750}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 69}
+     :dur {:type :fixed
+           :dur-millis 250}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+
+    ;; ------------ mm 16 ------------
+
     {:pitch {:type :fixed
              :pitch-midi-note 67}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
      :dur {:type :fixed
-           :dur-millis 3000}
+           :dur-millis 1500}
      :volume {:type :fixed
               :level 0.7}
      }
-    ]
-   }
+    ]}
 
   ;; -----------------------------------------------
   ;;
@@ -446,7 +683,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 4000}
+           :dur-millis 2000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -456,7 +693,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 4000}
+           :dur-millis 2000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -466,14 +703,14 @@
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 3750}
+           :dur-millis 1875}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 46}
      :dur {:type :fixed
-           :dur-millis 250}
+           :dur-millis 125}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -483,14 +720,14 @@
     {:pitch {:type :fixed
              :pitch-midi-note 48}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 3000}
+           :dur-millis 1500}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -500,7 +737,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 4000}
+           :dur-millis 2000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -510,21 +747,21 @@
     {:pitch {:type :fixed
              :pitch-midi-note 46}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -534,21 +771,21 @@
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 38}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -558,14 +795,14 @@
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 3000}
+           :dur-millis 1500}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -575,7 +812,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 46}
      :dur {:type :fixed
-           :dur-millis 4000}
+           :dur-millis 2000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -585,7 +822,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 38}
      :dur {:type :fixed
-           :dur-millis 4000}
+           :dur-millis 2000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -595,7 +832,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 4000}
+           :dur-millis 2000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -605,14 +842,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 1000}
-     :volume {:type :fixed
-              :level 0.7}
-     }
-    {:pitch {:type :fixed
-             :pitch-midi-note 38}
-     :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -620,6 +850,13 @@
              :pitch-midi-note 38}
      :dur {:type :fixed
            :dur-millis 1000}
+     :volume {:type :fixed
+              :level 0.7}
+     }
+    {:pitch {:type :fixed
+             :pitch-midi-note 38}
+     :dur {:type :fixed
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -629,7 +866,7 @@
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 4000}
+           :dur-millis 2000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -639,21 +876,21 @@
     {:pitch {:type :fixed
              :pitch-midi-note 38}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -663,21 +900,21 @@
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 1500}
+           :dur-millis 750}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 38}
      :dur {:type :fixed
-           :dur-millis 500}
+           :dur-millis 250}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 2000}
+           :dur-millis 1000}
      :volume {:type :fixed
               :level 0.7}
      }
@@ -687,14 +924,14 @@
     {:pitch {:type :fixed
              :pitch-midi-note 36}
      :dur {:type :fixed
-           :dur-millis 1000}
+           :dur-millis 500}
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 41}
      :dur {:type :fixed
-           :dur-millis 3000}
+           :dur-millis 1500}
      :volume {:type :fixed
               :level 0.7}
      }
