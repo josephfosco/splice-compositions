@@ -22,8 +22,9 @@
  :loops
  [
   {:name "note-1-1"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :fixed
@@ -58,15 +59,16 @@
     ;; ------------ mm 2 ------------
 
   {:name "note-2-1"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
-     :dur {:type :fixed}
+     :dur {:type :fixed
+           :dur-millis 2000}
      }
-    {
-     :pitch {:type :fixed
+    {:pitch {:type :fixed
              :pitch-midi-note 69}
      :dur {:type :fixed
            :dur-millis 875}
@@ -98,8 +100,9 @@
     ;; ------------ mm 3 ------------
 
   {:name "note-3-1"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -136,8 +139,9 @@
     ]}
 
   {:name "note-3-4"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -179,8 +183,9 @@
     ;; ------------ mm 5 ------------
 
   {:name "note-5-1"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -219,8 +224,9 @@
     ;; ------------ mm 6 ------------
 
   {:name "note-6-1"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -264,13 +270,14 @@
     ]}
 
   {:name "note-6-5"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 12250}
+           :dur-millis 11750}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 65}
@@ -312,13 +319,14 @@
     ]}
 
   {:name "note-7-4"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 14250}
+           :dur-millis 13750}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
@@ -355,8 +363,9 @@
     ;; ------------ mm 9 ------------
 
   {:name "note-9-1"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -410,13 +419,14 @@
     ]}
 
   {:name "note-10-3"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 20500}
+           :dur-millis 19500}
      }
     {:pitch {:type :fixed
              :pitch-midi-note 69}
@@ -474,15 +484,16 @@
      }
     {:pitch {:type :rest}
      :dur {:type :variable-inc-millis
-           :dur-millis 8250
+           :dur-millis 8500
            :dec-millis 750
            :inc-millis 750}
      }
     ]}
 
   {:name "note-12-3"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -529,8 +540,9 @@
     ]}
 
   {:name "note-13-4"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -584,8 +596,9 @@
     ]}
 
   {:name "note-14-5"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -625,15 +638,16 @@
      }
     {:pitch {:type :rest}
      :dur {:type :variable-inc-millis
-           :dur-millis 250
+           :dur-millis 2250
            :dec-millis 750
            :inc-millis 750}
      }
     ]}
 
   {:name "note-15-4"
-   :loop-type :loop
+   :loop-type :multiplying-loop
    :instrument-name :wurlitzer-piano
+   :max-num-mult-loops 8
    :melody-info
    [
     {:pitch {:type :rest}
@@ -663,6 +677,12 @@
            :dur-millis 1500}
      :volume {:type :fixed
               :level 0.7}
+     }
+    {:pitch {:type :rest}
+     :dur {:type :variable-inc-millis
+           :dur-millis 0
+           :dec-millis 750
+           :inc-millis 750}
      }
     ]}
 
