@@ -39,10 +39,10 @@
              }
      :dur {:type :fixed
            :dur-millis 875
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -56,9 +56,9 @@
              }
      :dur {:type :fixed
            :dur-millis 125
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -74,8 +74,8 @@
            :dur-millis 1000
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           :dur-var-max-pct-inc 100
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -112,10 +112,10 @@
              }
      :dur {:type :fixed
            :dur-millis 875
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -129,9 +129,9 @@
              }
      :dur {:type :fixed
            :dur-millis 125
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -147,8 +147,8 @@
            :dur-millis 1000
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           :dur-var-max-pct-inc 100
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -185,10 +185,10 @@
              }
      :dur {:type :fixed
            :dur-millis 875
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -202,9 +202,9 @@
              }
      :dur {:type :fixed
            :dur-millis 125
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -220,8 +220,8 @@
            :dur-millis 875
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           :dur-var-max-pct-inc 100
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -256,9 +256,9 @@
              }
      :dur {:type :fixed
            :dur-millis 125
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -275,10 +275,10 @@
              }
      :dur {:type :fixed
            :dur-millis 500
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -294,8 +294,8 @@
            :dur-millis 1500
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           :dur-var-max-pct-inc 100
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -583,9 +583,9 @@
              }
      :dur {:type :fixed
            :dur-millis 250
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -602,10 +602,10 @@
              }
      :dur {:type :fixed
            :dur-millis 500
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -787,10 +787,10 @@
              }
      :dur {:type :fixed
            :dur-millis 750
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -804,9 +804,9 @@
              }
      :dur {:type :fixed
            :dur-millis 250
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -820,10 +820,10 @@
              }
      :dur {:type :fixed
            :dur-millis 750
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -837,9 +837,9 @@
              }
      :dur {:type :fixed
            :dur-millis 250
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -855,10 +855,10 @@
              }
      :dur {:type :fixed
            :dur-millis 500
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -1001,9 +1001,9 @@
              }
      :dur {:type :fixed
            :dur-millis 250
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -1020,9 +1020,9 @@
              }
      :dur {:type :fixed
            :dur-millis 250
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 400
            }
      :volume {:type :fixed
               :level 0.7}
@@ -1036,9 +1036,9 @@
              }
      :dur {:type :fixed
            :dur-millis 250
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -1052,10 +1052,10 @@
              }
      :dur {:type :fixed
            :dur-millis 500
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -1071,7 +1071,7 @@
            :dur-millis 750
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 50
+           :dur-var-max-pct-inc 200
            :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
@@ -1198,9 +1198,9 @@
              }
      :dur {:type :fixed
            :dur-millis 250
-           :dur-var-first-rep 7
-           :dur-var-prob 50
-           :dur-var-max-pct-inc 200
+           ;; :dur-var-first-rep 7
+           ;; :dur-var-prob 50
+           ;; :dur-var-max-pct-inc 200
            }
      :volume {:type :fixed
               :level 0.7}
@@ -1217,10 +1217,10 @@
              }
      :dur {:type :fixed
            :dur-millis 500
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
@@ -1234,10 +1234,10 @@
              }
      :dur {:type :fixed
            :dur-millis 1500
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 50
-           :dur-var-max-pct-dec 10
+           ;; :dur-var-first-rep 9
+           ;; :dur-var-prob 33
+           ;; :dur-var-max-pct-inc 50
+           ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
               :level 0.7}
