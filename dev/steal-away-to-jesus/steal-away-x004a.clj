@@ -25,7 +25,7 @@
    :loop-type :multiplying-loop
    :instrument-name :flute
    :max-num-mult-loops 12
-   :loop-mult-probability 100
+   :loop-mult-probability 0
    :min-new-loop-delay-ms 100
    :max-new-loop-delay-ms 200
    :melody-info
@@ -38,7 +38,7 @@
              :pitch-var-max-dec 15
              }
      :dur {:type :fixed
-           :dur-millis 875
+           :dur-millis 1000
            ;; :dur-var-first-rep 9
            ;; :dur-var-prob 33
            ;; :dur-var-max-pct-inc 50
@@ -48,14 +48,14 @@
               :level 0.7}
      }
     {:pitch {:type :fixed
-             :pitch-midi-note 65
+             :pitch-midi-note 69
              :pitch-var-first-rep 3
              :pitch-var-prob 25
              :pitch-var-max-inc 15
              :pitch-var-max-dec 15
              }
      :dur {:type :fixed
-           :dur-millis 125
+           :dur-millis 1000
            ;; :dur-var-first-rep 7
            ;; :dur-var-prob 50
            ;; :dur-var-max-pct-inc 200
@@ -64,7 +64,7 @@
               :level 0.7}
      }
     {:pitch {:type :fixed
-             :pitch-midi-note 65
+             :pitch-midi-note 72
              :pitch-var-first-rep 3
              :pitch-var-prob 25
              :pitch-var-max-inc 15
@@ -72,17 +72,17 @@
              }
      :dur {:type :fixed
            :dur-millis 1000
-           :dur-var-first-rep 9
-           :dur-var-prob 33
-           :dur-var-max-pct-inc 100
-           :dur-var-ignore-for-nt-note true
+           :dur-var-first-rep 2
+           :dur-var-prob 100
+           :dur-var-max-pct-inc 750
+           :dur-var-ignore-for-nxt-note true
            }
      :volume {:type :fixed
               :level 0.7}
      }
     {:pitch {:type :rest}
      :dur {:type :fixed
-           :dur-millis 3000
+           :dur-millis 1000
            }
      }
      ]}

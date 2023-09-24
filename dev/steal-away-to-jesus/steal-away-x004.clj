@@ -26,8 +26,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :fixed
@@ -74,7 +74,7 @@
            :dur-millis 1000
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 100
+           :dur-var-max-pct-inc 400
            ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
@@ -95,8 +95,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -147,7 +147,7 @@
            :dur-millis 1000
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 100
+           :dur-var-max-pct-inc 200
            ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
@@ -168,8 +168,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -220,7 +220,7 @@
            :dur-millis 875
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 100
+           :dur-var-max-pct-inc 200
            ;; :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
@@ -239,8 +239,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -315,8 +315,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -388,8 +388,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -475,8 +475,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -566,8 +566,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -642,8 +642,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -750,8 +750,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -893,8 +893,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -984,8 +984,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -1071,7 +1071,7 @@
            :dur-millis 750
            :dur-var-first-rep 9
            :dur-var-prob 33
-           :dur-var-max-pct-inc 200
+           :dur-var-max-pct-inc 320
            :dur-var-max-pct-dec 10
            }
      :volume {:type :fixed
@@ -1090,8 +1090,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
@@ -1181,8 +1181,8 @@
    :instrument-name :flute
    :max-num-mult-loops 12
    :loop-mult-probability 100
-   :min-new-loop-delay-ms 100
-   :max-new-loop-delay-ms 200
+   :min-new-mult-loop-delay-ms 100
+   :max-new-mult-loop-delay-ms 200
    :melody-info
    [
     {:pitch {:type :rest}
